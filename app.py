@@ -208,7 +208,7 @@ st.markdown("## 🖼️ 模型预览")
 # 预设视角按钮 - 5个按钮对应5个视图
 st.markdown("### 预设视角")
 view_cols = st.columns(5)
-views = ["正等轴测", "反等轴测", "前视图", "侧视图", "俯视图"]
+views = ["正等轴测", "透视图", "侧视图", "俯视图", "正视图"]
 view_keys = ["iso_pos", "iso_neg", "front", "side", "top"]
 
 # 创建5个视图按钮
